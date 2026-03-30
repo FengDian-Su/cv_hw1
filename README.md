@@ -108,3 +108,8 @@ python inference.py \
 ```
 
 TTA is enabled by default. Add `--no_tta` to disable it (faster but less accurate).
+
+#### Performance Snapshot
+![Leaderboard](figures/leaderboard.png)
+![lr_curve](figures/lr_curve.png)
+![training_curves](figures/training_curves.png)
