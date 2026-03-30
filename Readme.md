@@ -1,11 +1,11 @@
-# NYCU Visual Recognition using Deep Learning 2026 HW1
+## NYCU Visual Recognition using Deep Learning 2026 HW1
 
 - **Student ID**: 314551055
 - **Name**: Su Feng-Dian
 
 ---
 
-## Introduction
+### Introduction
 
 This repository contains the implementation for HW1: Image Classification.
 The task is to classify RGB images into 100 categories given a training/validation
@@ -22,7 +22,7 @@ predictions over six crop-and-flip variants for improved robustness.
 
 ---
 
-## Environment Setup
+### Environment Setup
 
 ```bash
 # Create and activate a conda environment
@@ -36,7 +36,7 @@ pip install pandas matplotlib pillow
 
 ---
 
-## Repository Structure
+### Repository Structure
 
 ```
 cv_hw1/
@@ -57,7 +57,7 @@ cv_hw1/
 
 ---
 
-## Usage
+### Usage
 
 All commands should be run from inside the `code/` directory:
 
@@ -65,7 +65,7 @@ All commands should be run from inside the `code/` directory:
 cd code
 ```
 
-### Training
+#### Training
 
 ```bash
 python train_0323_v2.py \
@@ -87,7 +87,7 @@ The best checkpoint and training log will be saved to:
 - `model/se_resnet101_v2_best.pt`
 - `model/se_resnet101_v2_log.csv`
 
-### Plot Training Curves (Optional)
+#### Plot Training Curves (Optional)
 
 ```bash
 python plot_results.py \
@@ -95,7 +95,7 @@ python plot_results.py \
     --out_dir ../figures
 ```
 
-### Inference
+#### Inference
 
 ```bash
 python inference.py \
